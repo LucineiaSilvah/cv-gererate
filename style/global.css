@@ -1,0 +1,59 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+fieldset{
+  width: 50%;
+  margin: auto;
+padding: 2rem;
+border-radius: .25rem;
+
+}
+form{
+display: grid;
+width: 100%;
+gap: 2rem;
+grid-template-columns: 2fr 2fr;
+color: #6e6d6d;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+legend{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+input,button{
+  padding: 0.5rem;
+  margin-bottom: .5rem;
+  border-radius: .25rem;
+  border: 1px solid rgb(0, 255, 195);
+}
+button{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6e6d6d;
+}
+li{
+  margin-left: 1.5rem;
+}
+#container{
+  width: 798px;
+  margin: 2rem auto;
+  
+}
+@media print {
+
+ body{
+  width: 798px;
+  height: 1000px;
+ }
+ fieldset{
+  display: none;
+ }
+
+}
