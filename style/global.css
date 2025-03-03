@@ -42,9 +42,18 @@ li{
   margin-left: 1.5rem;
 }
 #container{
-  width: 798px;
+  width: 80%;
+ 
   margin: 2rem auto;
   
+}
+@media screen and (max-width:798px) {
+  fielset{
+    width: 80%;
+  }
+  form{
+    grid-template-columns: 1fr;
+  }
 }
 @media print {
 
